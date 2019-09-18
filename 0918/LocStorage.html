@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Storage Example</title>
+</head>
+<body>
+
+    <script>
+        // save highscore data
+        localStorage.setItem("highscore", 152400)    ;
+
+        // data can later be retrieved, even on other pages
+        var highscore = localStorage.getItem("highscore");
+        alert(highscore);
+    </script>
+    
+</body>
+</html>
